@@ -1,0 +1,307 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial;
+}
+
+/* .jumbotron.dua .bg{
+    
+} */
+
+.jumbotron video{
+    width: 100%;
+}
+.jumbotron.dua{
+    background: url(../mp4/Bg-give.gif);
+    background-size: cover;
+    margin: auto;
+
+}
+.jumbotron.dua h1{
+text-align: center;
+}
+.jumbotron.dua .K1{
+width: 300px;
+}
+.jumbotron.dua .K2{
+width: 300px;
+
+}
+
+.jumbotron.dua img{
+border: 2px solid black;
+border-radius: 5px;
+ margin-left: 150px;
+margin-top: 50px; 
+margin: 20px 10px 20px;
+margin-left: 25px;
+box-shadow: 2px 2px 2px black;
+}
+
+.jumbotron.tiga{
+    background: url(../mp4/J3.gif);
+/* background-image: url(../gambar/Kanisius1.jpg); */
+background-size: cover;
+margin-top: 5px;
+/* background-position: -250px 0; */
+background-repeat: no-repeat;
+}
+
+
+.jumbotron.tiga h1{
+text-align: center;
+/* margin-top: 10px; */
+}
+.pembungkus{
+width: 299px;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow: 1px 5px 5px black;
+background: rgba(0, 0, 0, 0);
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+margin-top: 25px;
+}
+.siswa{
+overflow: hidden;
+}
+.siswa img{
+width: 299px;
+border-radius: 3px;
+border: 2px solid;
+border-color:  rgb(0, 255, 242) red yellow rgb(0, 255, 0);
+transform: scale(1);
+transition: all .3s ease-out;
+}
+
+.siswa:hover img{
+transform: scale(1.1);
+transition: all .3s ease-in;
+}
+
+.siswa{
+display: flex;
+position: relative;
+}
+.title{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+.title h3{
+    text-align: center;
+    line-height: 2px;
+    position: relative;
+    top: 260px;
+    color: #ffff;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+}
+/* tablet */
+@media screen and (min-width: 768px){
+.jumbotron.dua{
+    background: url(../mp4/Bg-give.gif);
+    background-size: cover;
+    margin-bottom: 5px;
+}
+.jumbotron.dua h1{
+    text-align: center;
+}
+.jumbotron.dua .K1{
+    width: 200px;
+}
+.jumbotron.dua .K2{
+    width: 350px;
+    /* margin-left: 500px;
+    margin-top: -300px; */
+}
+
+.jumbotron.dua img{
+    border: 2px solid  black;
+    border-radius: 5px;
+    /* margin-left: 150px;
+    margin-top: 50px; */
+    margin: 50px 10px 50px;
+    margin-left: 65px;
+    box-shadow: 2px 2px 2px black;
+}
+.jumbotron.tiga{
+    background: url(../mp4/J3.gif);
+    /* background-image: url(../gambar/Kanisius1.jpg); */
+    background-size: cover;
+    margin-top: 5px;
+    /* background-position: -250px 0; */
+    background-repeat: no-repeat;
+}
+
+
+.jumbotron.tiga h1{
+    text-align: center;
+}
+.pembungkus{
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px black;
+    background: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.siswa{
+    overflow: hidden;
+}
+.siswa img{
+    width: 199px;
+    border-radius: 3px;
+    border: 2px solid;
+    border-color:  rgb(0, 255, 242) red yellow rgb(0, 255, 0);
+    transform: scale(1);
+    transition: all .3s ease-out;
+}
+
+.siswa:hover img{
+    transform: scale(1.1);
+    transition: all .3s ease-in;
+}
+
+.siswa{
+    display: flex;
+    position: relative;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.title h3{
+    text-align: center;
+    line-height: 2px;
+    position: relative;
+    top: 185px;
+    color: #ffff;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+    }
+}
+/* destop */
+@media screen and (min-width: 800px){
+.jumbotron.dua{
+    background: url(../mp4/Bg-give.gif);
+    background-size: cover;
+    margin-top: 5px;
+ 
+}
+.jumbotron.dua h1{
+    text-align: center;
+}
+.jumbotron.dua .K1{
+    width: 300px;
+}
+.jumbotron.dua .K2{
+    width: 450px;
+    /* margin-left: 500px;
+    margin-top: -300px; */
+}
+
+.jumbotron.dua img{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin: 50px 10px 50px;
+    margin-left: 150px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.jumbotron.tiga {
+    background: url(../mp4/J3.gif);
+    background-size: cover;
+    margin: auto;
+}
+
+
+
+.jumbotron.tiga h1{
+    text-align: center;
+}
+.pembungkus{
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px black;
+    background: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.siswa{
+    overflow: hidden;
+}
+.siswa img{
+    width: 199px;
+    border-radius: 3px;
+    border: 2px solid  rgb(0, 255, 242) red yellow rgb(0, 255, 0);
+    transform: scale(1);
+    transition: all .3s ease-out;
+}
+
+.siswa:hover img{
+    transform: scale(1.1);
+    transition: all .3s ease-in;
+}
+
+.siswa{
+    display: flex;
+    position: relative;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.title h3{
+    text-align: center;
+    line-height: 2px;
+    position: relative;
+    top: 190px;
+    color: #ffff;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+
+    }
+}
+
+/* animate background jumbotron tiga */
+/* @keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+} */
